@@ -1,0 +1,148 @@
+body {
+    background: #ffffff;
+    height: 100%;
+    background-image: url("../images/contact.png");
+    background-position: center;
+  }
+#main-header{
+    position: absolute;
+    border-radius: 0.3em;
+    top: 2.1em;
+    width: 75%;
+    height: 10%;
+    left: 14.5%;
+    z-index: 1;
+    background-color: rgba(102, 36, 20, 0.637);
+}
+.logo-text{
+    position: absolute;;
+    left: 0em;
+    top:0.1em;
+    color: whitesmoke;
+    /* margin-left: 2em;
+    margin-top: 1.5em; */
+}
+
+#main-logo{
+    position: relative;
+    top: -1.01em;
+    left: -4.2em;
+    z-index: 2;
+    width: 9%;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+#sticky-footer {
+    flex-shrink:none;
+    background-color: rgba(102, 36, 20, 0.911);
+    
+    bottom: 0em;
+    width: 100%;
+
+    left: 0em;
+    
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+.carousel-text{
+    
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.quote{
+    font-size:2rem;font-weight:150;line-height:0.7em;
+}
+#hamburger{
+    
+    
+    background-image: url('../images/hamburger.png');
+    width: 30px;
+    background-blend-mode:darken;
+}
+.navbar-right-link{
+    color: blanchedalmond;
+}
+
+
+
+/*for Contact Us page*/
+
+.my-form{
+    
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.733);
+    max-height: 40em;
+    box-shadow:rgba(0, 0, 0, 0.164) 5px 5px;
+}
+.form-group{
+    padding-bottom: 10px;
+
+}
+.my-form label{
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+}
+.my-form input, textarea{
+    padding:7px;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 6em;
+}
+.my-form input[type='submit']{
+    
+    border: 1px greenyellow solid;
+    width: 60%;
+    background-color: rgb(40, 240, 50);
+    margin-bottom: 6em; border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 20px;
+    position: relative;
+    align-items: center;
+    margin-bottom:3em ;
+}
+.text-group h2, p{
+    line-height: 0.8em;
+}
+#contact{
+    position: relative;
+    padding: 80px;
+    margin-top: 6.2em;
+    padding-bottom: 0em;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;    
+    
+}
+#contactR{
+    background-color:rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.164) -5px 5px;
+    max-height: 40em;
+}
+.button{
+    text-align: center;
+    margin: 0em;
+    left: 20%;
+}
